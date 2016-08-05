@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_water_mark_add"
+        android:title="add watermark"></item>
+
+    <item
+        android:id="@+id/menu_water_mark_remove"
+        android:title="remove watermark"></item>
+
+    <item
+        android:id="@+id/menu_water_mark_export"
+        android:title="Export watermark"></item>
+
+</menu>
