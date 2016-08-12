@@ -24,7 +24,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 import br.com.duanniston.watermark.R;
-import br.com.duanniston.watermark.app.framework.WaterMark;
+import br.com.duanniston.watermarklib.framework.WaterMark;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 

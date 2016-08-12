@@ -31,6 +31,22 @@ public class WaterMark extends BaseClass {
         this.mContext = mContext;
     }
 
+    /**
+     * Change the intent returned by {@link #getIntent}.  This holds a
+     * reference to the given intent; it does not copy it.  Often used in
+     * conjunction with {@link #onNewIntent}.
+     *
+     * @param newIntent The new Intent object to return from getIntent
+     *
+     * @see #getIntent
+     * @see #onNewIntent
+     */
+    /**
+     *
+     * @param src Any bitmap object to add the watermark above, The watermark is a bitmap converted from the @see View
+     * @param view Is a any XMl inflated or created dynamically like a Layout, this view will be converted in bitmap and then added above a original bitmap
+     * @return Bitmap with a watermark converted from @see #android.view
+     */
     @Nullable
     public Bitmap getImageWaterMarkFromView(@NonNull Bitmap src, @NonNull View view) {
 
