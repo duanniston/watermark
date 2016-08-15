@@ -4,6 +4,15 @@
 
 
 ```gradle
+ repositories {
+    jcenter()
+     maven {
+         url  "http://dl.bintray.com/duanniston/repository" 
+     }
+ }
+ ```
+
+```gradle
 compile 'br.com.duanniston:watermarklib:X.X.X'
 ```
 
