@@ -20,6 +20,8 @@ compile 'br.com.duanniston:watermarklib:0.0.4'
 
 > minSdkVersion 16
 
+## Usage
+
 #### Generating watermark from XML (view)
 
 ```java
