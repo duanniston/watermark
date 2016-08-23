@@ -14,7 +14,7 @@
  ```
 
 ```gradle
-compile 'br.com.duanniston:watermarklib:0.0.4'
+compile 'br.com.duanniston:watermarklib:0.0.5'
 ```
 
 
