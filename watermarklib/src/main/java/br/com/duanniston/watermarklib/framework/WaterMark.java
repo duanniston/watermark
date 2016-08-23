@@ -16,7 +16,27 @@ import android.view.ViewGroup;
 import java.io.IOException;
 
 /**
+ * Copyright 2016 Duanniston Cabral
+ * <p/>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p/>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p/>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
  * Created by duanniston.cabral on 01/08/2016.
+ *
+ * @author Duanniston Cardoso Cabral
+ * @since 2016
+ * @version 0.0.4
  */
 
 public class WaterMark extends BaseClass {
@@ -32,18 +52,7 @@ public class WaterMark extends BaseClass {
     }
 
     /**
-     * Change the intent returned by {@link #getIntent}.  This holds a
-     * reference to the given intent; it does not copy it.  Often used in
-     * conjunction with {@link #onNewIntent}.
-     *
-     * @param newIntent The new Intent object to return from getIntent
-     *
-     * @see #getIntent
-     * @see #onNewIntent
-     */
-    /**
-     *
-     * @param src Any bitmap object to add the watermark above, The watermark is a bitmap converted from the @see View
+     * @param src  Any bitmap object to add the watermark above, The watermark is a bitmap converted from the @see View
      * @param view Is a any XMl inflated or created dynamically like a Layout, this view will be converted in bitmap and then added above a original bitmap
      * @return Bitmap with a watermark converted from @see #android.view
      */
