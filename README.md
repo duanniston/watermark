@@ -10,7 +10,7 @@
  ```
 
 ```gradle
-compile 'br.com.duanniston:watermarklib:0.0.5'
+implementation 'br.com.duanniston:watermarklib:0.0.5'
 ```
 
 
