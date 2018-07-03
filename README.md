@@ -6,10 +6,6 @@
 ```gradle
  repositories {
     jcenter()
-    //This repository is not necessary, but if  jcenter() not work, add the line below 
-     maven {
-         url  "http://dl.bintray.com/duanniston/repository" 
-     }
  }
  ```
 
